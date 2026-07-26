@@ -21,8 +21,8 @@ from app.core.config import settings
 
 logger = logging.getLogger(__name__)
 
-_face_app = insightface.app.FaceAnalysis(name="buffalo_l")
-_face_app.prepare(ctx_id=-1, det_size=(640, 640))  # ctx_id=-1 = CPU; use 0 for GPU
+_face_app = insightface.app.FaceAnalysis(name="buffalo_sc")
+_face_app.prepare(ctx_id=-1, det_size=(320, 320))  # ctx_id=-1 = CPU; use 0 for GPU
 
 
 def get_face_embedding(image_bgr: np.ndarray) -> np.ndarray | None:

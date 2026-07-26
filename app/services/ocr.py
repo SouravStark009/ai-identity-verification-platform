@@ -6,7 +6,7 @@ from paddleocr import PaddleOCR
 logger = logging.getLogger(__name__)
 
 # Loaded once at import time — model weights stay in memory across requests
-_ocr_engine = PaddleOCR(use_angle_cls=True, lang="en", show_log=False)
+_ocr_engine = PaddleOCR(use_angle_cls=False, lang="en", show_log=False)
 
 
 def extract_text(image_bgr: np.ndarray) -> dict:
