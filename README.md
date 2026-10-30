@@ -2,8 +2,7 @@
 
 A production-oriented identity verification pipeline combining OCR, document classification, information extraction, face verification, deep-learning-based forgery detection, and LLM-generated reporting — built with FastAPI, PyTorch, and modern pretrained vision models.
 
-🔗 **Live demo:** https://ai-identity-verification-platform.onrender.com (free-tier hosting — first request after inactivity may take ~30-60s to wake up)
-🔗 **Repository:** https://github.com/SouravStark009/ai-identity-verification-platform
+
 
 ---
 
